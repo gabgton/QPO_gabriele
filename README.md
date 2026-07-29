@@ -63,3 +63,6 @@ where the subscripts S and NS indicate the selected and not selected population 
 At this level, given a time segment size, two populations of events have been created comparing the QPO peak intensity to a varying threshold in a specific range (`QPO_allDUs_freq_analysis.py`). Then, the polarization has been calculated (`QPO_allDUs_polar_analysis.py`) and the statistical analysis has been performed (`QPO_allDUs_stat_analysis.py`). 
 
 `launch_allDUs_qpo_segments.sh` performs this analysis for different time segment sizes and every result is saved each time. `QPO_segments_comparison.py` can be used to look at the summary of all the measurements at different time segment sizes, focusing on the statistical aspects (pvalues).
+
+## P.S.
+For the moment, some codes have Stefano's paths and similar stuff, I suggest to create a new branch and change the paths there. Maybe, I will fix this aspect or create some gitignores.
